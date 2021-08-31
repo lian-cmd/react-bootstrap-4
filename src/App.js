@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 import { Button } from 'reactstrap';
+import NavbarComp from './Components/Fungsi/NavbarComp';
 
 function App() {
   return (
-    <div className="App">
-      <Button color="danger">Danger!</Button>
+    <div>
+      <NavbarComp/>
     </div>
   );
 }
