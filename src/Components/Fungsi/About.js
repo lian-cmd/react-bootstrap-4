@@ -1,4 +1,5 @@
 import React from 'react';
+import "./About.css"
 import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button
@@ -7,7 +8,7 @@ import {
 export default function About() {
     return (
         <div>
-              <Card>
+        <Card className="card-wrapper">
         <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
         <CardBody>
           <CardTitle tag="h5">Card title</CardTitle>
