@@ -1,9 +1,10 @@
 import React from 'react'
-import { Jumbotron, Button } from 'reactstrap';
+import {Jumbotron, Button, Container } from 'reactstrap';
 
 export default function HomePage() {
     return (
         <div>
+            <Container>
             <Jumbotron>
             <h1 className="display-3">Hello, world!</h1>
             <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -13,6 +14,7 @@ export default function HomePage() {
             <Button color="primary">Learn More</Button>
             </p>
             </Jumbotron>
+            </Container>
         </div>
     )
 }
